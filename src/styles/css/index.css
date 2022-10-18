@@ -1,0 +1,80 @@
+#root, body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 350px;
+  border-right: 1px solid #eaeaea;
+  margin:  0px;
+  padding-top: 60px;
+  background-color: #89EDA0;
+}
+.sidebar__title {
+  color: #ffffff;
+  font-size: 2.3em;
+  margin: auto;
+  text-align: center;
+}
+
+.Navigation__list {
+  display: flex;
+  flex-direction:column;
+  list-style-type: none;
+  min-height: 200px;
+  justify-content: space-around;
+  background-color: inherit;
+}
+.Navigation__button {
+  width: 100%;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: color 0.1s linear;
+  background-color: inherit;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Navigation__button--active {
+color: #000000;
+
+}
+
+.Recipe {
+  margin: 60px 50px 0px 100px;
+  width: 70%;
+  font-family: "Lato", sans-serif;
+}
+.Recipe__title {
+  margin: 0;
+  font-size: 3em;
+}
+.Recipe__sub-title {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.Recipe__ingredients {
+  padding-left: 0;
+  list-style-type: none;
+}
+.Recipe__ingredients > li {
+  margin: 10px 0px;
+}
+.Recipe__steps {
+  padding-left: 20px;
+}
+.Recipe__steps > li {
+  margin: 10px 0px;
+}
+
+/*# sourceMappingURL=index.css.map */
